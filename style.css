@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to right top,#e7d06d,#efa04e);
+    background-repeat: no-repeat;
+color: white;
+    text-align: center;
+}
+h1{
+    padding: 20px;
+    font-size: 40px;
+    font-family: 'Black Ops One', cursive;
+}
+p{
+    font-size: 26px;
+    margin: 16px;
+    color: #6b6b6b;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#inputSection{
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.24);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    border-radius: 8px;
+} 
+#lang{
+    font-size: 14px;
+    padding: 4px;
+  
+ 
+    border-radius: 6px;
+    border-color: rgba(255, 255, 255, 0);
+}
+
+#start{
+    font-size: 14px;
+    padding: 6px;
+    border-radius: 6px;
+    border-color: rgba(255, 255, 255, 0);
+}
+.start{
+    background-color: rgb(56, 255, 56);
+    color: white;
+}
+.recording{
+    background-color: rgb(252, 95, 95);
+}
+textarea{
+    background-color: rgba(0, 0, 0, 0.24);
+border-radius: 8px;
+width: 55%;
+height: 200px;
+margin: 16px;
+font-size: 20px;
+color: white;
+}
+#wordCount{
+    color: rgb(15 134 120);
+    font-weight: 300;
+}
+span{
+    color:rgb(230, 32, 72);
+ 
+    font-weight: 500;
+}
+@media(max-width:768px){
+    h1{
+        padding: 8px;
+    font-size: 22px;
+
+    }
+    p{
+        font-size: 18px;
+        margin: 10px;
+    }
+    #inputSection{
+        width: 82%;
+        justify-content: space-evenly;
+    }
+    textarea{
+        width: 80%;
+    }
+
+}
+@media(max-width:342px){
+    #inputSection{
+        flex-direction: column;
+    }
+    #lang{
+        font-size: 12px;
+        padding: 2px;
+        margin: 4px;
+    }    
+}
